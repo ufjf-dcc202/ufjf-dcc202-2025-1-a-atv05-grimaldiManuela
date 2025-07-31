@@ -19,7 +19,7 @@ function atualizaTabuleiro(){
             disco1.classList.add("selecionado");
         }
     }
-}
+} 
 
 function cliqueDisco(evento){
     const posicao = Number(evento.target.dataset.posicao)
